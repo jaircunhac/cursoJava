@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fc10709-9038-4bca-928b-64acbfb8c965" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/cursoJava/javaCourse/section8/exercise4/entities/CurrencyConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cursoJava/javaCourse/section8/exercise4/mainClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cursoJava/javaCourse/section9/construtores/entities/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/cursoJava/javaCourse/section9/construtores/mainClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaCourse/section8/exercise4/entities/CurrencyConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaCourse/section8/exercise4/mainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaCourse/section9/construtores/entities/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaCourse/section9/construtores/mainClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cursoJava/javaCourse/section8/exercise3ver2/entities/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cursoJava/javaCourse/section8/exercise3ver2/entities/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cursoJava/javaCourse/section8/exercise3ver2/mainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cursoJava/javaCourse/section8/exercise3ver2/mainClass.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +38,12 @@
     &quot;assignee&quot;: &quot;jaircunhac&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/jaircunhac/cursoJava.git",
-    "accountId": "7d06e2e7-4260-4d31-afb4-5face3d8b55b"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jaircunhac/cursoJava.git&quot;,
+    &quot;accountId&quot;: &quot;7d06e2e7-4260-4d31-afb4-5face3d8b55b&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -56,9 +66,14 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Jair/Desktop/Personal/udemy/javaCourse/cursoJava"
+    "last_opened_file_path": "C:/Users/Jair/Desktop/Personal/udemy/javaCourse/cursoJava/src/javaCourse/section9/construtores"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jair\Desktop\Personal\udemy\javaCourse\cursoJava\src\javaCourse\section9\construtores" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
