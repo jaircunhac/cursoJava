@@ -20,9 +20,9 @@ public class mainClass {
         System.out.println("--------------------");
 
         System.out.println("General information: ");
-        System.out.println("Name: " + product.name);
-        System.out.println("Price: " + product.price);
-        System.out.println("Stock: " + product.quantity);
+        System.out.println("Name: " + product.getName());
+        System.out.println("Price: " + product.getPrice());
+        System.out.println("Stock: " + product.getQuantity());
         System.out.println("Value of the stock: " + product.totalValueInStock());
 
         System.out.println("--------------------");
@@ -30,7 +30,7 @@ public class mainClass {
         System.out.print("How much do you want to add in the stock: ");
         int add = sc.nextInt();
         product.addProducts(add);
-        System.out.println("Current stock: " + product.quantity);
+        System.out.println("Current stock: " + product.getQuantity());
         System.out.println("Current value of the stock: " + product.totalValueInStock());
 
         System.out.println("--------------------");
@@ -38,7 +38,7 @@ public class mainClass {
         System.out.print("How much do you want to remove from the stock: ");
         int remove = sc.nextInt();
         product.removeProducts(remove);
-        System.out.println("Current stock: " + product.quantity);
+        System.out.println("Current stock: " + product.getQuantity());
         System.out.println("Current value of the stock: " + product.totalValueInStock());
 
         sc.close();
