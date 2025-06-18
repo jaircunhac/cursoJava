@@ -13,7 +13,7 @@ public class vetores2Main {
 
         // Good practices using the vector.length because it will make you do not depend on another variable
 
-        for (int aux = 0; aux <vect.length; aux++){
+        for (int aux = 0; aux < vect.length; aux++){
             sc.nextLine();
             String name = sc.nextLine();
             double price = sc.nextDouble();
@@ -21,10 +21,12 @@ public class vetores2Main {
         }
 
         double sum = 0.0;
+
         for (int aux = 0; aux < vect.length; aux++){
             sum += vect[aux].getPrice();
         }
-        double average = sum/ vect.length;
+
+        double average = sum / vect.length;
 
         System.out.printf("AVERAGE PRICE: %.2f%n", average);
 
