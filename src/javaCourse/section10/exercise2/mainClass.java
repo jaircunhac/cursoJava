@@ -14,6 +14,7 @@ public class mainClass {
         Employee[] vect = new Employee[amountOfEmployees];
 
         for (int aux = 0; aux < vect.length; aux++){
+            System.out.println("Employee #" + (aux + 1));
             System.out.print("Id: ");
             int id = sc.nextInt();
             System.out.print("Name: ");
@@ -23,6 +24,8 @@ public class mainClass {
 
             vect[aux] = new Employee(id, name, salary);
         }
+
+        //Could not develop the increase salary logic, I'll do it with the professor.
 
         System.out.print("Enter the id that will have salary increase: ");
         int id = sc.nextInt();
