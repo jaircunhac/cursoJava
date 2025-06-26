@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4fc10709-9038-4bca-928b-64acbfb8c965" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javaCourse/section10/exercise2/mainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaCourse/section10/exercise2/mainClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +53,7 @@
     "Application.mainClass.executor": "Run",
     "Application.mainJava.executor": "Run",
     "Application.mainNelioClass.executor": "Run",
+    "Application.matrixMain.executor": "Run",
     "Application.negativesMain.executor": "Run",
     "Application.vetores2Main.executor": "Run",
     "Application.vetoresMain.executor": "Run",
@@ -72,7 +72,7 @@
       <recent name="C:\Users\Jair\Desktop\Personal\udemy\javaCourse\cursoJava\src\javaCourse\section9\construtores" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.mainNelioClass">
+  <component name="RunManager" selected="Application.matrixMain">
     <configuration name="forEachMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaCourse.section10.forEachMain" />
       <module name="cursoJava" />
@@ -125,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="negativesMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaCourse.section10.exercise1.negativesMain" />
+    <configuration name="matrixMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaCourse.section10.matrixMain" />
       <module name="cursoJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaCourse.section10.exercise1.*" />
+          <option name="PATTERN" value="javaCourse.section10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.matrixMain" />
         <item itemvalue="Application.mainNelioClass" />
         <item itemvalue="Application.mainClass" />
         <item itemvalue="Application.listMain" />
         <item itemvalue="Application.forEachMain" />
-        <item itemvalue="Application.negativesMain" />
       </list>
     </recent_temporary>
   </component>
@@ -158,5 +158,16 @@
       <updated>1745771472268</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
