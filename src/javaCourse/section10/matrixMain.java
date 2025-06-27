@@ -11,15 +11,15 @@ public class matrixMain {
         int[][] matrix = new int[n][n];
 
         // Reading the matrix
-        for (int i = 0; i < n; i++){
-            for (int j = 0; j < n; j++){
+        for (int i = 0; i < matrix.length; i++){
+            for (int j = 0; j < matrix[i].length; j++){
                 matrix[i][j] = sc.nextInt();
             }
         }
 
         // Printing the diagonal
         System.out.println("Main diagonal:");
-        for (int i = 0; i < n; i++){
+        for (int i = 0; i < matrix.length; i++){
             System.out.print(matrix[i][i] + " ");
         }
 
@@ -27,8 +27,8 @@ public class matrixMain {
 
         int negativeNum = 0;
 
-        for (int i = 0; i < n; i++){
-            for (int j = 0; j < n; j++){
+        for (int i = 0; i < matrix.length; i++){
+            for (int j = 0; j < matrix[i].length; j++){
                 if (matrix[i][j] < 0){
                     negativeNum++;
                 }
