@@ -5,6 +5,7 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
+import java.time.temporal.ChronoUnit;
 
 public class dateMain {
     public static void main(String[] args) {
@@ -117,5 +118,11 @@ public class dateMain {
 
         System.out.println("Past week = " + pastWeekLocalDate);
         System.out.println("Next week = " + nextWeekLocalDate);
+
+        Instant nextWeekInstant = data3.plus(7, ChronoUnit.DAYS);
+        Instant pastWeekInstant = data3.minus(7, ChronoUnit.DAYS);
+
+        System.out.println("Next week: " + nextWeekInstant);
+        System.out.println("Past week: " + pastWeekInstant);
     }
 }
