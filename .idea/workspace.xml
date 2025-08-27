@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fc10709-9038-4bca-928b-64acbfb8c965" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/javaCourse/section12/exercise2/mainClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cursoJava/javaCourse/section11/iso8601.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cursoJava/javaCourse/section12/exercise1/entities/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cursoJava/javaCourse/section12/exercise1/entities/Department.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cursoJava/javaCourse/section12/exercise1/entities/HourContract.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cursoJava/javaCourse/section12/exercise1/entities/HourContract.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cursoJava/javaCourse/section12/exercise1/entities/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cursoJava/javaCourse/section12/exercise1/entities/Worker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cursoJava/javaCourse/section12/exercise1/mainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cursoJava/javaCourse/section12/exercise1/mainClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javaCourse/section12/exercise1/entities/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaCourse/section12/exercise1/entities/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javaCourse/section12/exercise1/entities/HourContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaCourse/section12/exercise1/entities/HourContract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javaCourse/section12/exercise1/entities/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaCourse/section12/exercise1/entities/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javaCourse/section12/exercise1/mainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaCourse/section12/exercise1/mainClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
