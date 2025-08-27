@@ -11,6 +11,24 @@ public class HourContract {
         return valuePerHour * hours;
     }
 
+    public HourContract(Date date, double valuePerHour, Integer hours) {
+        this.date = date;
+        this.valuePerHour = valuePerHour;
+        this.hours = hours;
+    }
+
+    public Date getDate() {
+        return date;
+    }
+
+    public double getValuePerHour() {
+        return valuePerHour;
+    }
+
+    public Integer getHours() {
+        return hours;
+    }
+
     public void setDate(Date date) {
         this.date = date;
     }
