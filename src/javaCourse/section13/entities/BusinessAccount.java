@@ -13,6 +13,12 @@ public class BusinessAccount extends Account{
         }
     }
 
+    @Override
+    public void withdraw(Double amount){
+        super.withdraw(amount);
+        balance -= 2.0;
+    }
+
     public BusinessAccount(Integer number, String holder, Double balance, Double loanLimit) {
         super(number, holder, balance);
         this.loanLimit = loanLimit;
