@@ -37,7 +37,7 @@ public class Program {
         System.out.println(acc.getBalance());
         acc3.withdraw(100.0);
         System.out.println(acc3.getBalance());
-        acc2.withdraw(100.0);
+        acc2.withdraw(100.0); // The problem here is the declaration of the var acc2
         System.out.println(acc2.getBalance());
     }
 }
