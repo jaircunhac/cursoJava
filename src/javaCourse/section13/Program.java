@@ -6,7 +6,7 @@ import javaCourse.section13.entities.SavingsAccount;
 
 public class Program {
     public static void main(String[] args) {
-        Account acc = new Account(1001, "Jair", 9000.0);
+//        Account acc = new Account(1001, "Jair", 9000.0);
         BusinessAccount bacc = new BusinessAccount(1002, "Maria", 9000.0, 500.0);
 
         // UPCASTING
@@ -33,8 +33,8 @@ public class Program {
 
         // OVERRIDE
 
-        acc.withdraw(100.0);
-        System.out.println(acc.getBalance());
+//        acc.withdraw(100.0);
+//        System.out.println(acc.getBalance());
         acc3.withdraw(100.0);
         System.out.println(acc3.getBalance());
         acc2.withdraw(100.0); // The problem here is the declaration of the var acc2
