@@ -46,44 +46,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Program.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProgramAbstract.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProgramAbstractMethod.executor&quot;: &quot;Run&quot;,
-    &quot;Application.dateMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.forEachMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.iso8601.executor&quot;: &quot;Run&quot;,
-    &quot;Application.javaCourse.section12.exercise1.mainClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.javaCourse.section12.exercise2.mainClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.javaCourse.section13.exercise1.Program.executor&quot;: &quot;Run&quot;,
-    &quot;Application.javaCourse.section13.exercise2.Program.executor&quot;: &quot;Run&quot;,
-    &quot;Application.javaCourse.section13.exercise3.Program.executor&quot;: &quot;Run&quot;,
-    &quot;Application.listMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.mainClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.mainJava.executor&quot;: &quot;Run&quot;,
-    &quot;Application.mainNelioClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.matrixMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.negativesMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.vetores2Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.vetoresMain.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jair/Desktop/Personal/udemy/javaCourse/cursoJava/src/javaCourse/section9/construtores&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;tasks&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Program.executor": "Run",
+    "Application.ProgramAbstract.executor": "Run",
+    "Application.ProgramAbstractMethod.executor": "Run",
+    "Application.ProgramFinally.executor": "Run",
+    "Application.dateMain.executor": "Run",
+    "Application.forEachMain.executor": "Run",
+    "Application.iso8601.executor": "Run",
+    "Application.javaCourse.section12.exercise1.mainClass.executor": "Run",
+    "Application.javaCourse.section12.exercise2.mainClass.executor": "Run",
+    "Application.javaCourse.section13.exercise1.Program.executor": "Run",
+    "Application.javaCourse.section13.exercise2.Program.executor": "Run",
+    "Application.javaCourse.section13.exercise3.Program.executor": "Run",
+    "Application.listMain.executor": "Run",
+    "Application.mainClass.executor": "Run",
+    "Application.mainJava.executor": "Run",
+    "Application.mainNelioClass.executor": "Run",
+    "Application.matrixMain.executor": "Run",
+    "Application.negativesMain.executor": "Run",
+    "Application.vetores2Main.executor": "Run",
+    "Application.vetoresMain.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Jair/Desktop/Personal/udemy/javaCourse/cursoJava/src/javaCourse/section9/construtores",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "tasks"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Jair\Desktop\Personal\udemy\javaCourse\cursoJava\src\javaCourse\section9\construtores" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.javaCourse.section13.exercise3.Program">
+  <component name="RunManager" selected="Application.ProgramFinally">
     <configuration name="ProgramAbstract" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaCourse.section13.ProgramAbstract" />
       <module name="cursoJava" />
@@ -110,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="javaCourse.section13.exercise1.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaCourse.section13.exercise1.Program" />
+    <configuration name="ProgramFinally" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaCourse.section14.ProgramFinally" />
       <module name="cursoJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaCourse.section13.exercise1.*" />
+          <option name="PATTERN" value="javaCourse.section14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProgramFinally" />
         <item itemvalue="Application.javaCourse.section13.exercise3.Program" />
         <item itemvalue="Application.ProgramAbstractMethod" />
         <item itemvalue="Application.ProgramAbstract" />
         <item itemvalue="Application.javaCourse.section13.exercise2.Program" />
-        <item itemvalue="Application.javaCourse.section13.exercise1.Program" />
       </list>
     </recent_temporary>
   </component>
