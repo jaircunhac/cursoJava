@@ -1,5 +1,7 @@
 package javaCourse.section14.exercise1.model.entities;
 
+import javaCourse.section14.exercise1.model.exceptions.DomainException;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
@@ -17,18 +19,15 @@ public class Reservation {
         return TimeUnit.DAYS.convert(diff, TimeUnit.MILLISECONDS);
     }
 
-    public String updateDate(Date checkIn, Date checkOut){
+    //Use throws DomainException because I don't need to deal with it in the method, but in the main class with a catch
+    public void updateDate(Date checkIn, Date checkOut) throws DomainException{
         Date now = new Date();
         if (checkIn.before(now) || checkOut.before(now)){
-            return "Error in reservation: Reservation dates for update must be future";
-        } else if (!checkOut.after(checkIn)){
-            return "Error in reservation: Check-out date must be after check-in date";
+            throw new DomainException("Reservation dates for update must be future dates");
         }
 
         this.checkIn = checkIn;
         this.checkOut = checkOut;
-
-        return null;
     }
 
     @Override
@@ -39,7 +38,11 @@ public class Reservation {
     public Reservation() {
     }
 
-    public Reservation(Integer roomNumber, Date checkIn, Date checkOut) {
+    public Reservation(Integer roomNumber, Date checkIn, Date checkOut) throws DomainException{
+        if (!checkOut.after(checkIn)){
+            throw new DomainException("Check-out date must be after check-in date");
+        }
+
         this.roomNumber = roomNumber;
         this.checkIn = checkIn;
         this.checkOut = checkOut;
