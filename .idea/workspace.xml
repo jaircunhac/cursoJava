@@ -16,8 +16,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Exception" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -47,41 +47,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.Program.executor": "Run",
-    "Application.ProgramAbstract.executor": "Run",
-    "Application.ProgramAbstractMethod.executor": "Run",
-    "Application.ProgramFinally.executor": "Run",
-    "Application.dateMain.executor": "Run",
-    "Application.forEachMain.executor": "Run",
-    "Application.iso8601.executor": "Run",
-    "Application.javaCourse.section12.exercise1.mainClass.executor": "Run",
-    "Application.javaCourse.section12.exercise2.mainClass.executor": "Run",
-    "Application.javaCourse.section13.exercise1.Program.executor": "Run",
-    "Application.javaCourse.section13.exercise2.Program.executor": "Run",
-    "Application.javaCourse.section13.exercise3.Program.executor": "Run",
-    "Application.javaCourse.section14.exercise2.Program.executor": "Run",
-    "Application.listMain.executor": "Run",
-    "Application.mainClass.executor": "Run",
-    "Application.mainJava.executor": "Run",
-    "Application.mainNelioClass.executor": "Run",
-    "Application.matrixMain.executor": "Run",
-    "Application.negativesMain.executor": "Run",
-    "Application.vetores2Main.executor": "Run",
-    "Application.vetoresMain.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Jair/Desktop/Personal/udemy/javaCourse/cursoJava/src/javaCourse/section9/construtores",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "tasks"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Program.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProgramAbstract.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProgramAbstractMethod.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProgramFinally.executor&quot;: &quot;Run&quot;,
+    &quot;Application.dateMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.forEachMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.iso8601.executor&quot;: &quot;Run&quot;,
+    &quot;Application.javaCourse.section12.exercise1.mainClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.javaCourse.section12.exercise2.mainClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.javaCourse.section13.exercise1.Program.executor&quot;: &quot;Run&quot;,
+    &quot;Application.javaCourse.section13.exercise2.Program.executor&quot;: &quot;Run&quot;,
+    &quot;Application.javaCourse.section13.exercise3.Program.executor&quot;: &quot;Run&quot;,
+    &quot;Application.javaCourse.section14.exercise2.Program.executor&quot;: &quot;Run&quot;,
+    &quot;Application.listMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.mainClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.mainJava.executor&quot;: &quot;Run&quot;,
+    &quot;Application.mainNelioClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.matrixMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.negativesMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.vetores2Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.vetoresMain.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jair/Desktop/Personal/udemy/javaCourse/cursoJava/src/javaCourse/section9/construtores&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;tasks&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Jair\Desktop\Personal\udemy\javaCourse\cursoJava\src\javaCourse\section9\construtores" />
