@@ -2,6 +2,8 @@ package javaCourse.section16.exercise1;
 
 import javaCourse.section16.exercise1.model.entities.CarRental;
 import javaCourse.section16.exercise1.model.entities.Vehicle;
+import javaCourse.section16.exercise1.model.services.BrazilTaxService;
+import javaCourse.section16.exercise1.model.services.RentalService;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -29,6 +31,15 @@ public class Program {
         double pricePerHour = sc.nextDouble();
         System.out.print("Entre com o preço por hora: ");
         double pricePerDay = sc.nextDouble();
+
+        RentalService rentalService = new RentalService(pricePerHour, pricePerDay, new BrazilTaxService());
+
+        rentalService.processInvoice(cr);
+
+        System.out.println("FATURA:");
+        System.out.println("Pagamento básico: " + cr.getInvoice().getBasicPayment());
+        System.out.println("Imposto: " + cr.getInvoice().getTax());
+        System.out.println("Pagamento total: " + cr.getInvoice().getTotalPayment());
 
         sc.close();
     }
