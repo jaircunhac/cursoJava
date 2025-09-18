@@ -7,6 +7,8 @@
     <list default="true" id="4fc10709-9038-4bca-928b-64acbfb8c965" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/javaCourse/section16/exercise1/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaCourse/section16/exercise1/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javaCourse/section16/exercise1/model/entities/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaCourse/section16/exercise1/model/entities/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javaCourse/section16/exercise1/model/services/BrazilTaxService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaCourse/section16/exercise1/model/services/BrazilTaxService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/javaCourse/section16/exercise1/model/services/RentalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaCourse/section16/exercise1/model/services/RentalService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +22,7 @@
         <option value="Enum" />
         <option value="Exception" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -162,10 +165,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.javaCourse.section15.exercise1.Program" />
-        <item itemvalue="Application.ProgramFRBR" />
+        <item itemvalue="Application.javaCourse.section14.exercise2.Program" />
         <item itemvalue="Application.ProgramFolder" />
         <item itemvalue="Application.ProgramFWBW" />
-        <item itemvalue="Application.javaCourse.section14.exercise2.Program" />
+        <item itemvalue="Application.ProgramFRBR" />
       </list>
     </recent_temporary>
   </component>
