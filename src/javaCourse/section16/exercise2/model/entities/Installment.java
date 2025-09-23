@@ -1,9 +1,10 @@
 package javaCourse.section16.exercise2.model.entities;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 public class Installment {
-    private Date dueDate;
+    private LocalDate dueDate;
     private double amount;
 
     private Contract contract;
@@ -11,17 +12,17 @@ public class Installment {
     public Installment() {
     }
 
-    public Installment(Date dueDate, double amount, Contract contract) {
+    public Installment(LocalDate dueDate, double amount, Contract contract) {
         this.dueDate = dueDate;
         this.amount = amount;
         this.contract = contract;
     }
 
-    public Date getDueDate() {
+    public LocalDate getDueDate() {
         return dueDate;
     }
 
-    public void setDueDate(Date dueDate) {
+    public void setDueDate(LocalDate dueDate) {
         this.dueDate = dueDate;
     }
 

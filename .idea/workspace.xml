@@ -7,8 +7,9 @@
     <list default="true" id="4fc10709-9038-4bca-928b-64acbfb8c965" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/javaCourse/section16/exercise2/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaCourse/section16/exercise2/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javaCourse/section16/exercise2/model/entities/Contract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaCourse/section16/exercise2/model/entities/Contract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javaCourse/section16/exercise2/model/entities/Installment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaCourse/section16/exercise2/model/entities/Installment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/javaCourse/section16/exercise2/model/service/ContractService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaCourse/section16/exercise2/model/service/ContractService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javaCourse/section16/exercise2/model/service/PaypalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaCourse/section16/exercise2/model/service/PaypalService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
