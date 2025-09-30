@@ -2,7 +2,6 @@ package javaCourse.section16.exercise2.model.entities;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 public class Contract {

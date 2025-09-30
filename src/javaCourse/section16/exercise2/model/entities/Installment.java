@@ -1,21 +1,26 @@
 package javaCourse.section16.exercise2.model.entities;
 
 import java.time.LocalDate;
-import java.util.Date;
+import java.time.format.DateTimeFormatter;
 
 public class Installment {
     private LocalDate dueDate;
     private double amount;
 
+    private static DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy");
     private Contract contract;
+
+    @Override
+    public String toString() {
+        return dueDate.format(dtf) + " - " + String.format("%.2f", amount);
+    }
 
     public Installment() {
     }
 
-    public Installment(LocalDate dueDate, double amount, Contract contract) {
+    public Installment(LocalDate dueDate, double amount) {
         this.dueDate = dueDate;
         this.amount = amount;
-        this.contract = contract;
     }
 
     public LocalDate getDueDate() {

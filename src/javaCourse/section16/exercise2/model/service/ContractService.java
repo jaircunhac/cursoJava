@@ -10,16 +10,10 @@ public class ContractService {
     private OnlinePaymentService service;
 
     public void processContract(Contract contract, int months){
-        for (int aux = 1; aux >= months; aux++){
-            LocalDate dueDate = contract.getDate();
 
-            service = new PaypalService();
+    }
 
-            double result = contract.getTotalValue() + service.interest(contract.getTotalValue(), months);
-
-            double amount = contract.getTotalValue() + service.paymentFee(result);
-
-           contract.getInstallments().add(new Installment(dueDate, amount, contract));
-        }
+    public ContractService(OnlinePaymentService service) {
+        this.service = service;
     }
 }

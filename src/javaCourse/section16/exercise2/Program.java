@@ -1,6 +1,8 @@
 package javaCourse.section16.exercise2;
 
 import javaCourse.section16.exercise2.model.entities.Contract;
+import javaCourse.section16.exercise2.model.entities.Installment;
+import javaCourse.section16.exercise2.model.service.ContractService;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -24,6 +26,14 @@ public class Program {
         Contract contract = new Contract(number, date, totalValue);
 
         System.out.println("Entre com o número de parcelas: ");
+        int n = sc.nextInt();
+
+        ContractService contractService = new ContractService(null);
+
+        contractService.processContract(contract, n);
+
+        System.out.println("Parcelas:");
+
 
         sc.close();
     }
