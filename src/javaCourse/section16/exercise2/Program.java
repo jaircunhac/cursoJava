@@ -3,6 +3,7 @@ package javaCourse.section16.exercise2;
 import javaCourse.section16.exercise2.model.entities.Contract;
 import javaCourse.section16.exercise2.model.entities.Installment;
 import javaCourse.section16.exercise2.model.service.ContractService;
+import javaCourse.section16.exercise2.model.service.PaypalService;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -25,15 +26,18 @@ public class Program {
 
         Contract contract = new Contract(number, date, totalValue);
 
-        System.out.println("Entre com o número de parcelas: ");
+        System.out.print("Entre com o número de parcelas: ");
         int n = sc.nextInt();
 
-        ContractService contractService = new ContractService(null);
+        ContractService contractService = new ContractService(new PaypalService());
 
         contractService.processContract(contract, n);
 
         System.out.println("Parcelas:");
 
+        for (Installment installment : contract.getInstallments()){
+            System.out.println(installment);
+        }
 
         sc.close();
     }
